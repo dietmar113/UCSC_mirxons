@@ -1,0 +1,45 @@
+track Atlas
+type bigBed 9 +
+bigDataUrl Mirxons_atlas.bb
+shortLabel Mirxons_atlas
+longLabel Mirxons_atlas
+filter.score 3
+visibility pack
+itemRgb on
+
+track Blood
+type bigBed 9 +
+bigDataUrl Mirxons_Blood.bb
+shortLabel Blood
+longLabel Blood
+filter.score 3
+visibility pack
+itemRgb on
+
+track Brain
+type bigBed 9 +
+bigDataUrl Mirxons_Brain.bb
+shortLabel Brain
+longLabel Brain
+filter.score 3
+visibility pack
+itemRgb on
+
+track EVs
+type bigBed 9 +
+bigDataUrl Mirxons_EVs.bb
+shortLabel EVs
+longLabel EVs
+filter.score 3
+visibility pack
+itemRgb on
+
+track Sperm
+type bigBed 9 +
+bigDataUrl Mirxons_Sperm.bb
+shortLabel Sperm
+longLabel Sperm
+filter.score 3
+visibility pack
+itemRgb on
+

@@ -1,0 +1,6 @@
+hub Mirxon binding sites
+shortLabel Mirxon binding sites - Score 7=0, 1=6 mismatches: red-CGG blue-CGGGG green-CCGGG orange-CGGG magenta-CGCGG cyan-CCGG grey-CG
+longLabel explanation
+genomesFile genomes.txt
+email you@example.com
+descriptionUrl 
