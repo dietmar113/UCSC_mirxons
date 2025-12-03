@@ -1,0 +1,6 @@
+hub test_expression_bigWig
+shortLabel test_expression_bigWig
+longLabel test_expression_bigWig
+genomesFile genomes.txt
+email you@example.com
+descriptionUrl 

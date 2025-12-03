@@ -1,8 +1,8 @@
 track Atlas
 type bigBed 9 +
 bigDataUrl Mirxons_atlas.bb
-shortLabel Mirxons_atlas
-longLabel Mirxons_atlas
+shortLabel Atlas
+longLabel Atlas_long
 filter.score 3
 visibility pack
 itemRgb on
