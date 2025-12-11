@@ -2,7 +2,7 @@ track Mirxon_binding_sites_4
 type bigBed 12 +
 bigDataUrl hg38_bed12.bb
 shortLabel Mirxon_binding_sites_4
-longLabel longLabel
+longLabel Mirxon_binding_sites_4_longlabel
 filter.score 2
 visibility pack
 itemRgb on

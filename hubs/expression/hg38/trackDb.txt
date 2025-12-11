@@ -1,0 +1,34 @@
+track CellTypes
+type bigBarChart
+visibility full
+shortLabel ALLsamples
+longLabel ALLsamples
+barChartBars CCL CL CT T
+barChartColors #FF6600 #33CCCC #CC9955 #AAAAFF
+barChartLabel Tissues
+barChartMetric median
+barChartUnit counts_per_10mio
+bigDataUrl test.bigBed
+barChartMatrixUrl matrix_file2.txt
+barChartSampleUrl categorie_file.txt
+
+track Type4
+type bigBarChart
+visibility full
+shortLabel FourTypes
+longLabel FourTypes
+barChartBars CCL CL CT T
+barChartColors #FF6600 #33CCCC #CC9955 #AAAAFF
+barChartLabel Types
+barChartMetric median
+barChartUnit counts_per_10mio
+bigDataUrl Types4.bigBed
+barChartMatrixUrl matrix_file_Types4.txt
+# barChartSampleUrl categorie_file.txt
+
+# cp /mnt/ws_Documents/UCSC_GB/data_processed/matrix_file2.txt .
+# cp /mnt/ws_Documents/UCSC_GB/data_processed/test.bigBed .
+# cp /mnt/ws_Documents/UCSC_GB/data_processed/categorie_file.txt .
+
+# cp /mnt/ws_Documents/Dietmar/UCSC_expressionHUBS/matrix_file_Types4.txt .
+# cp /mnt/ws_Documents/Dietmar/UCSC_expressionHUBS/Types4.bigBed .

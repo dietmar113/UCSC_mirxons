@@ -1,0 +1,6 @@
+hub test_hub_expression_hub
+shortLabel test_hub_expression_shortlabel
+longLabel test_hub_expression_longlabel
+genomesFile genomes.txt
+email you@example.com
+descriptionUrl 
