@@ -1,34 +1,73 @@
-track CellTypes
-type bigBarChart
-visibility full
-shortLabel ALLsamples
-longLabel ALLsamples
-barChartBars CCL CL CT T
-barChartColors #FF6600 #33CCCC #CC9955 #AAAAFF
-barChartLabel Tissues
-barChartMetric median
-barChartUnit counts_per_10mio
-bigDataUrl test.bigBed
-barChartMatrixUrl matrix_file2.txt
-barChartSampleUrl categorie_file.txt
+#track Type4
+#type bigBarChart
+#visibility full
+#shortLabel FourTypes
+#longLabel FourTypes
+#barChartBars CCL CL CT T
+#barChartColors #FF6600 #33CCCC #CC9955 #AAAAFF
+#barChartLabel Types
+#barChartMetric median
+#barChartUnit counts_per_10mio
+#bigDataUrl Types4/Types4.bigBed
+#barChartMatrixUrl Types4/matrix_file_Types4.txt
+# barChartSampleUrl Types4/category_file.txt
 
-track Type4
+track Expanded1
 type bigBarChart
 visibility full
-shortLabel FourTypes
-longLabel FourTypes
+shortLabel Expanded1
+longLabel Expanded1
 barChartBars CCL CL CT T
 barChartColors #FF6600 #33CCCC #CC9955 #AAAAFF
 barChartLabel Types
 barChartMetric median
 barChartUnit counts_per_10mio
-bigDataUrl Types4.bigBed
-barChartMatrixUrl matrix_file_Types4.txt
-# barChartSampleUrl categorie_file.txt
+bigDataUrl https://pub-61b037836a354ec2898f0f752e7f1d88.r2.dev/hsAtlas/Types4_expanded.bigBed
+barChartMatrixUrl https://pub-61b037836a354ec2898f0f752e7f1d88.r2.dev/hsAtlas/matrix_file_expanded.txt
+barChartSampleUrl https://pub-61b037836a354ec2898f0f752e7f1d88.r2.dev/hsAtlas/categorie_file_expanded.txt
 
-# cp /mnt/ws_Documents/UCSC_GB/data_processed/matrix_file2.txt .
-# cp /mnt/ws_Documents/UCSC_GB/data_processed/test.bigBed .
-# cp /mnt/ws_Documents/UCSC_GB/data_processed/categorie_file.txt .
+#track Expanded2
+#type bigBarChart
+#visibility full
+#shortLabel Expanded2
+#longLabel Expanded2
+#barChartBars CCL CL CT T
+#barChartColors #FF6600 #33CCCC #CC9955 #AAAAFF
+#barChartLabel Types
+#barChartMetric median
+#barChartUnit counts_per_10mio
+#bigDataUrl expanded2/Types4_expanded.bigBed
+#barChartMatrixUrl expanded2/matrix_file_expanded.txt
+#barChartSampleUrl expanded2/categorie_file_expanded.txt
 
 # cp /mnt/ws_Documents/Dietmar/UCSC_expressionHUBS/matrix_file_Types4.txt .
 # cp /mnt/ws_Documents/Dietmar/UCSC_expressionHUBS/Types4.bigBed .
+
+## for the first track Expression
+#cp /mnt/ws_Documents/UCSC_GB/R-workspace/UCSC_expHUB/results/category_file.txt .
+#cp /mnt/ws_Documents/UCSC_GB/R-workspace/UCSC_expHUB/results/matrix_file.txt .
+#cp /mnt/ws_Documents/UCSC_GB/R-workspace/UCSC_expHUB/results/test.bigBed .
+
+## for the second track Type4
+#cp /mnt/ws_Documents/Dietmar/UCSC_expressionHUBS_expanded/categorie_file_expanded.txt .
+#cp /mnt/ws_Documents/Dietmar/UCSC_expressionHUBS_expanded/matrix_file_expanded.txt .
+#cp /mnt/ws_Documents/Dietmar/UCSC_expressionHUBS_expanded/Types4_expanded.bigBed .
+
+## for expanded track
+#cp /mnt/ws_Documents/UCSC_GB/R-workspace/UCSC_expHUB/results_expanded/categorie_file_expanded.txt .
+#cp /mnt/ws_Documents/UCSC_GB/R-workspace/UCSC_expHUB/results_expanded/matrix_file_expanded.txt .
+#cp /mnt/ws_Documents/UCSC_GB/R-workspace/UCSC_expHUB/results_expanded/Types4_expanded.bigBed .
+
+#track Expression
+#type bigBarChart
+#visibility full
+#shortLabel Expression
+#longLabel Expression
+#barChartBars CCL CL CT T
+#barChartColors #FF6600 #33CCCC #CC9955 #AAAAFF
+#barChartLabel Sample groups
+#barChartMetric median
+#barChartUnit counts_per_10mio
+#bigDataUrl test.bigBed
+#barChartMatrixUrl matrix_file.txt
+#barChartSampleUrl category_file.txt
