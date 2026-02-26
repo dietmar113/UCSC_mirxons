@@ -1,11 +1,11 @@
 track STD
-bigDataUrl https://zenodo.org/records/18787954/files/STD.bigwig
+bigDataUrl https://zenodo.org/records/18787954/files/STD.bigwig?download=1
 shortLabel STD
 longLabel STD
 type bigWig
 
 track T4PNK
-bigDataUrl https://zenodo.org/records/18787954/files/T4PNK.bigwig
+bigDataUrl https://zenodo.org/records/18787954/files/T4PNK.bigwig?download=1
 shortLabel T4PNK
 longLabel T4PNK
 type bigWig
