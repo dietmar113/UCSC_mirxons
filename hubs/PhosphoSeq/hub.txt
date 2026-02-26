@@ -1,0 +1,6 @@
+hub PhosphoSeq
+shortLabel PhosphoSeq
+longLabel PhosphoSeq
+genomesFile genomes.txt
+email dietmar.pils@meduniwien.ac.at
+descriptionUrl 
